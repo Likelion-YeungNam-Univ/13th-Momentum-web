@@ -32,7 +32,7 @@ const WeatherLLM = ({ weatherData }) => {
 4.  **전체 형식**: 전체 내용은 300자 이내로 간결하게 작성해주세요. "조언해드리겠습니다"와 같은 직접적인 말투를 사용하지 말고, 바로 본론을 시작해주세요. 답변은 오직 텍스트로만 구성하고, 마크다운(bold, list 등) 형식은 사용하지 마세요.
 
 날씨 데이터: 기온 ${temp}°C, 습도 ${humidity}%, ${description}`;
-
+    console.log(import.meta.env.VITE_HUGGINGFACE_API_KEY)
     try {
       const response = await fetch(
         "https://router.huggingface.co/v1/chat/completions",
