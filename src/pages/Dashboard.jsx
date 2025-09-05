@@ -5,7 +5,7 @@ import { getCurrentLocation } from "../api/locationApi";
 import WeatherWidget from "../components/WeatherWidget";
 import ShadeShelterWidget from "../components/ShadeShelterWidget";
 import MapWidget from "../components/MapWidget";
-import DialoGPTLLM from "../components/WeatherMessageWidget";
+import WeatherLLM from "../components/WeatherMessageWidget";
 import AlertWidget from "../components/AlertWidget";
 import ProfileModal from "../components/ProfileModal";
 import HealthStatusWidget from "../components/HealthStatusWidget";
@@ -125,7 +125,7 @@ const Dashboard = ({}) => {
         <div className="space-y-6">
           {isMobile && <AlertWidget />}
           {/* AI 위젯 */}
-          <DialoGPTLLM weatherData={weatherData} />
+          <WeatherLLM weatherData={weatherData} />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* 날씨 정보 */}
