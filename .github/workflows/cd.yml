@@ -52,7 +52,7 @@ jobs:
           port: ${{ secrets.SERVER_SSH_PORT }}
           key: ${{ secrets.SERVER_KEY }}
           source: dist/
-          target: /home/ubuntu/13th-Momentum-web/
+          target: ~/13th-Momentum-web/
 
       # EC2 서버 설정 및 Nginx 재시
       - name: Deploy to EC2
