@@ -24,7 +24,7 @@ const Dashboard = ({}) => {
   const [isLogged, setIsLogged] = useState(false);
 
   const handleWeatherDataChange = (data) => {
-    // console.log("Dashboard - weatherData 수신:", data);
+    console.log("Dashboard - weatherData 수신:", data);
     setWeatherData(data);
   };
 
