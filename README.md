@@ -22,7 +22,7 @@
 ## 핵심기능
 <img width="1711" height="998" alt="image" src="https://github.com/user-attachments/assets/7694d90b-cd16-4c90-98f3-64c2ff22a076" />
 
-> Ondomi는 현재 **애플워치**로부터 사용자의 상황을 파악하고 안내합니다.
+> Ondomi는 현재 **애플워치**로부터 생체 데이터를 수집해 사용자의 상황을 파악하고 안내합니다.
 
 <br>
 
